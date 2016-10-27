@@ -1,0 +1,73 @@
+@media screen and (min-width:1260px){
+	#showcase {	padding: 5px 0;}
+}
+
+@media screen and (min-width:64em){
+
+.header-full{display:block;}
+.header-lite{display:none;}
+.intro-grid span {font-size:2em;}
+
+.func-grid {width:25%;}
+
+}
+
+
+
+@media screen and (max-width:64em){
+
+.header-full{display:none;}
+.header-lite{display:block;}
+
+.intro-grid span {font-size:1.6em;}
+
+.func-grid {width:50%;}
+
+#showcase {	padding: 0 0;}
+}
+
+
+
+
+
+
+@media screen and (min-width:46em){
+#footer .col {
+	float:left;
+	width:10%;
+	padding:0 1em;
+	margin:0;
+}
+#footer .describe {width:40%; padding-left:0; padding-right:2em;}
+#footer .social {width:30%; padding-right:0;}
+
+.showgrid {width:25%;}
+.showgrid .pic-info {display:block;}
+}
+
+@media screen and (max-width:46em){ /*700px*/
+#footer .col {
+	width:auto;
+	padding:0;
+	margin:0;
+}
+#footer .describe {padding-left:0; padding-right:;}
+#footer .social {padding-right:0;}
+#footer li { display:inline-block; margin-left:1em;}
+
+.func-grid {width:50%;}
+
+.showgrid {width:50%;}
+.showgrid .pic-info {display:none;}
+}
+
+@media screen and (max-width:32em){/* 500px */
+	#footer .col, #footer p.line {display:none;}
+	.intro-grid span {font-size:1.2em;}
+
+	.func-grid {width:100%;}
+}
+
+
+
+
